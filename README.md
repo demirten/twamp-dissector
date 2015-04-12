@@ -14,17 +14,23 @@ Written by Murat Demirten
 
 1. Install the `wireshark-dev` (and also cmake if it is not installed) package:
 
-	$ sudo apt-get install wireshark-dev
+```
+$ sudo apt-get install wireshark-dev
+```
 
 2. Create `build` dir in main directory and run `cmake` within as below:
 
-	$ mkdir build && cd build
-	$ cmake -DWIRESHARK_INCLUDE_DIRS=/usr/include/wireshark ..
+```
+$ mkdir build && cd build
+$ cmake -DWIRESHARK_INCLUDE_DIRS=/usr/include/wireshark ..
+```
 
 3. If everything goes well, you can use `make` and `make install` within build directory:
 
-	$ make
-	$ make install
+```
+$ make
+$ make install
+```
 
 Install target will copy `twamp.so` automatically in your `~/.wireshark/plugins` folder.
 
