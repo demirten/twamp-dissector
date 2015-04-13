@@ -1,6 +1,6 @@
 # twamp-dissector
 
-A Two-Way Active Measurement Protocol (TWAMP) dissector for Wireshark.
+A Two-Way Active Measurement Protocol (TWAMP) dissector for Wireshark (1.12.X and above).
  
 Written by Murat Demirten
 
@@ -10,12 +10,12 @@ Written by Murat Demirten
 
 * Twamp UDP test session ports extracted from control handshake process 
 
-## Build Instructions (Debian)
+## Build Instructions (Debian - Jessie)
 
-1. Install the `wireshark-dev` (and also cmake if it is not installed) package:
+1. Install the `wireshark-dev`, `libglib2.0-dev` and `cmake`:
 
 ```
-$ sudo apt-get install wireshark-dev
+$ sudo apt-get install wireshark-dev libglib2.0-dev cmake
 ```
 
 2. Create `build` dir in main directory and run `cmake` within as below:
