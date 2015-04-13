@@ -10,7 +10,18 @@ Written by Murat Demirten
 
 * Twamp UDP test session ports extracted from control handshake process 
 
-## Build Instructions (Debian - Jessie)
+## Build Instructions (Debian)
+
+Instructions below are tested with Debian Jessie (testing) distribution which 
+shipped with wireshark 1.12.X version.
+
+If you want to to build twamp plugin in Debian Wheezy (or similar Ubuntu versions)
+you need to install backported wireshark 1.12.X packages.
+
+> For example, if you configured wheezy-backports archive, you can install required wireshark
+packages with `sudo apt-get install -t wheezy-backports wireshark-dev libwireshark-dev libwsutil-dev'
+
+Instructions: 
 
 1. Install the `wireshark-dev`, `libglib2.0-dev` and `cmake`:
 
