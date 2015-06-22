@@ -45,6 +45,12 @@ $ make install
 
 Install target will copy `twamp.so` automatically in your `~/.wireshark/plugins` folder.
 
+## Twamp Gui Utilities
+
+You can use twamp-client and twamp-responder utilities for testing purpose:
+
+http://demirten.github.io/twamp-gui
+
 ## TODO
 
 * Authenticated and encrypted sessions will be supported in future
